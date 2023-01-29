@@ -4,9 +4,6 @@ public class User {
     private String name;
     private String mobile;
 
-    public User() {
-    }
-
     public String getName() {
         return name;
     }
@@ -26,5 +23,8 @@ public class User {
     public User(String name, String mobile) {
         this.name = name;
         this.mobile = mobile;
+    }
+
+    public User() {
     }
 }
